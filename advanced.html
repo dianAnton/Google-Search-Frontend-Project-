@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_adv.css">
+        <title>Guugle Advanced Search</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="logo">
+                <p>Guugle</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="image.html">Images</a></li>
+                    <li><a href="index.html">Google Search</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="header-title">
+            <p>Advanced Search</p>
+        </div>
+
+        <div class="section-one">
+            <div class="sect-one-title">
+                <p>Find pages with... </p>
+            </div>
+            <div class="sect-one-search">
+                <form action="https://www.google.com/search">
+                    <div class="all-words">   
+                        <label for="all-words">all these words: </label>
+                        <input type="text" id="all-words" name="as_q">
+                    </div>
+                    <div class="exact-words">
+                        <label for="exact-words">this exact word or phrase: </label>
+                        <input type="text" id="exact-words" name="as_epq">
+                    </div>
+                    <div class="any-words">
+                        <label for="any-words">any of these words: </label>
+                        <input type="text" id="any-words" name="as_oq">
+                    </div>
+                    <div class="none-words">
+                        <label for="none-words">none of these words: </label>
+                        <input type="text" id="none-words" name="as_eq">
+                    </div>
+
+                    <div class="numbers-words">
+                        <label for="numbers-words-start">numbers ranging from: </label>
+                        <input type="text" id="numbers-words-start" name="as_nlo">
+                        <label for="numbers-words-end">to</label>
+                        <input type="text" id="numbers-words-end" name="as_nhi">
+                    </div>
+
+                    <div class="btn">
+                        <input class="button-one" type="submit" value="Advanced Search">
+                    </div>
+                </form>
+                
+            </div>
+            
+        </div>
+
+    </body>
+</html>
